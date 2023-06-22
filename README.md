@@ -13,10 +13,11 @@ SocketCAN USB adapter used below.
      -  `sudo apt upgrade`  
 2.	Install CAN tools, git, and cmake:
      - `sudo apt install can-utils git cmake`  
-3. Clone this repo into user directory  
-4. Navigate into repo 
+3. Clone this repo into user directory:
+     - `git clone https://github.com/PChild/Phoenix-Linux-SocketCAN-Example.git`
+5. Navigate into repo 
       - `cd ./Phoenix-Linux-SocketCAN-Example/.`
-5.	Chmod shell scripts to allow you to use them:  
+6.	Chmod shell scripts to allow you to use them:  
       - `chmod +x *.sh`
 
 ## CAN adapter hot plugging
